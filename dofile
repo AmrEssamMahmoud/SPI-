@@ -1,0 +1,6 @@
+vlib work 
+vlog SPI_1_final.v SPI_tb.v SPI_WRAPPER.v RAM.v
+vsim -voptargs=+acc work.spi_tb
+add wave *
+run -all
+
